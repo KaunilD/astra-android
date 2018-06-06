@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:id="@+id/device"
+        android:title="@string/select_device"/>
+
+    <item
+        android:id="@+id/record"
+        android:orderInCategory="101"
+        app:showAsAction="always"
+        android:title="RECORD"/>
+
+    <item
+        android:id="@+id/loop"
+        android:orderInCategory="102"
+        app:showAsAction="always"
+        android:title="LOOP"/>
+
+</menu>
